@@ -57,13 +57,10 @@ function actualizarReloj(){
 
     if(seconds < 10)
         seconds = "0" + seconds;
-    document.getElementById("seconds").innerHTML = seconds;  
-      
-    //document.getElementById("year").innerHTML = date.getFullYear();
+    document.getElementById("seconds").innerHTML = seconds;
 }
 
-function actualizarFecha(){
-    
+function actualizarFecha(){    
     
     var days = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"];
     var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Septiembre",
