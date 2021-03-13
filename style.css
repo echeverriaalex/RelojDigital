@@ -8,7 +8,7 @@
 
 body{
 
-    background: url(wallpaper.jpg) fixed #000;
+    background: url(Ultraviolet\ 4K\ wallpaper.jfif) fixed #000;
     background-size: cover;
     color: #fff;
     font-size: 16px;
@@ -18,14 +18,12 @@ body{
 
     width: 100%;
     max-width: 1000px;
-    margin: auto;
 }
 
 .widget{
 
     width: 40%;
     margin: 2em;
-    /*margin: 32px;*/
 }
 
 .widget p{
@@ -58,10 +56,12 @@ body{
 .name{
 
     font-size: 40px;
-    color: #000;
+    color: aqua;
+    font-style: italic;
+    text-align: center;
 }
 
-/*
+
 .reloj .caja-seconds{
 
     display: inline-block;
@@ -72,4 +72,3 @@ body{
     font-size: 2rem;
     display: block;
 }
-*/

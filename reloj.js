@@ -81,7 +81,7 @@ function actualizarFecha(){
 }
 
 var nombre = prompt("Ingresa tu nombre: ");
-document.getElementById("name").innerHTML = "Bienvenid@ " + nombre;
+document.getElementById("name").innerHTML = "Bienvenido/a " + nombre;
 
 var tiempoReloj = 1000; // cada 1 segundo se actualiza
 var tiempoFecha = 1000;
