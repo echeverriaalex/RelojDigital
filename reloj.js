@@ -69,22 +69,38 @@ function actualizarFecha(){
     var date = new Date();
     var day = date.getDay();
     var dayNumber = date.getDate();
-    document.getElementById("day").innerHTML = days[day];
-    
+
+    document.getElementById("day").innerHTML = days[day];    
     document.getElementById("dayNumber").innerHTML = dayNumber + " de ";
 
     var month = date.getMonth();
     document.getElementById("month").innerHTML = months[month] + " del ";
 
     var year = date.getFullYear();
-    document.getElementById("year").innerHTML = date.getFullYear();
+    document.getElementById("year").innerHTML = year;
+
+    return date;
 }
 
-var nombre = prompt("Ingresa tu nombre: ");
-document.getElementById("name").innerHTML = "Bienvenido/a " + nombre;
+/*
+var formulario = document.getElementsByName("userName")[0],
+    elementos = formulario.element
+
+console.log(formulario);
+console.log(elementos);
+*/
+//var nombre = prompt("Ingresa tu nombre: ");
+document.getElementById("name").innerHTML = "Bienvenido/a " + name;
 
 var tiempoReloj = 1000; // cada 1 segundo se actualiza
 var tiempoFecha = 1000;
+
+/*
+var jsondate = actualizarFecha();
+    jsondate.toString();
+console.log(jsondate);
+document.write(jsondate);
+*/
 
 setInterval(actualizarReloj, tiempoReloj);
 setInterval(actualizarFecha, tiempoFecha);
