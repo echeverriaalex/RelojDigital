@@ -113,6 +113,8 @@ var jsondate = actualizarFecha();
 console.log(jsondate);
 document.write(jsondate);
 */
+
+
 nombreUsuario();
 setInterval(actualizarReloj, tiempoReloj);
 setInterval(actualizarFecha, tiempoFecha);
