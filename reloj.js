@@ -82,16 +82,14 @@ function actualizarFecha(){
     return date;
 }
 
-var nombre = document.getElementById("userName");
-
 function nombreUsuario(){
+    
+    var nombre = document.getElementById("userName");
 
-    if(nombre.value != null){
+    if(nombre.value != null)
         document.getElementById("name").innerHTML = "Bienvenido/a " + nombre.value;
-    }
-    else{
-        document.getElementById("name").innerHTML = "Bienvenido/a ";
-    }    
+    else
+        document.getElementById("name").innerHTML = "Bienvenido/a ";    
     return false;
 }
 
@@ -104,8 +102,7 @@ console.log(elementos);
 */
 //var nombre = prompt("Ingresa tu nombre: ");
 
-var tiempoReloj = 1000; // cada 1 segundo se actualiza
-var tiempoFecha = 1000;
+
 
 /*
 var jsondate = actualizarFecha();
@@ -114,6 +111,8 @@ console.log(jsondate);
 document.write(jsondate);
 */
 
+var tiempoReloj = 1000; // cada 1 segundo se actualiza
+var tiempoFecha = 1000;
 
 nombreUsuario();
 setInterval(actualizarReloj, tiempoReloj);
