@@ -12,7 +12,7 @@ body{
     background-size: cover;
     /*color: #fff;*/
     font-size: 16px;
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 .wrap{
@@ -42,7 +42,7 @@ body{
     background: rgba(0, 0, 0, .5);
     padding: 20px;
     width: 100%;
-    color: white;
+    color: #FFFFFF;
 }
 
 .reloj{
@@ -53,7 +53,7 @@ body{
     font-size: 4em;
     text-align: center;    
     background: rgba(0, 0, 0, .5); 
-    color: white;
+    color: #FFFFFF;
 }
 
 .reloj .caja-seconds{
@@ -66,7 +66,7 @@ body{
     font-size: 40px;
     font-family: sans-serif;
     text-align: center;
-    color: rgb(44, 5, 48);
+    color: #FFFFFF
 }
 
 .reloj .seconds, 
@@ -74,4 +74,5 @@ body{
 
     font-size: 2rem;
     display: block;
+    color: #FFFFFF
 }
