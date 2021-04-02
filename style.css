@@ -41,6 +41,7 @@ body{
     background: rgba(0, 0, 0, .5);
     padding: 20px;
     width: 100%;
+    color: white;
 }
 
 .reloj{
@@ -50,7 +51,8 @@ body{
     padding: 20px;
     font-size: 4em;
     text-align: center;    
-    background: rgba(0, 0, 0, .5);    
+    background: rgba(0, 0, 0, .5); 
+    color: white;
 }
 
 .reloj .caja-seconds{
