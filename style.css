@@ -66,7 +66,7 @@ body{
     font-size: 40px;
     font-family: sans-serif;
     text-align: center;
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 .reloj .seconds, 
@@ -74,5 +74,5 @@ body{
 
     font-size: 2rem;
     display: block;
-    color: #FFFFFF
+    color: #FFFFFF;
 }
