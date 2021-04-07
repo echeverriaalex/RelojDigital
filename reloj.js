@@ -83,13 +83,15 @@ function actualizarFecha(){
 }
 
 function nombreUsuario(){
+
+    var nombre = prompt("Ingresa tu nombre: ");
     
-    var nombre = document.getElementById("userName");
+    //var nombre = document.getElementById("userName");
 
     if(nombre.value != null)
-        document.getElementById("name").innerHTML = "Bienvenido/a " + nombre.value;
+        document.getElementById("name").innerHTML = "Bienvenido/a " + nombre;
     else
-        document.getElementById("name").innerHTML = "Bienvenido/a ";    
+        document.getElementById("name").innerHTML = "Bienvenido/a " + nombre;    
     return false;
 }
 
