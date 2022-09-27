@@ -10,12 +10,19 @@
 
 body{
 
-    background: url(wallpaper.jpg) no-repeat;
-    background-size: cover;
+    background: url(Ultraviolet4Kwallpaper.jpg) no-repeat;
+    background-size: auto;
+    /*background-size: cover;*/
     background-attachment: fixed;
     /*color: #fff;
     font-size: 16px;
     color: #FFFFFF;*/
+}
+
+img{
+
+    width: auto;
+    height: auto;
 }
 
 .wrap{

@@ -116,6 +116,6 @@ document.write(jsondate);
 var tiempoReloj = 1000; // cada 1 segundo se actualiza
 var tiempoFecha = 1000;
 
-nombreUsuario();
+//nombreUsuario();
 setInterval(actualizarReloj, tiempoReloj);
-setInterval(actualizarFecha, tiempoFecha);
+//setInterval(actualizarFecha, tiempoFecha);
